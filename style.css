@@ -1,14 +1,24 @@
+#mypage{
+   
+    border-radius: 8px;
+    box-shadow: 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    text-align: center;
+}
+
+
 h1{
-    color: red;
+    color: gray;
 }
 #myinput{
     border-color: mediumpurple;
-    height: 25px;
-    width: 300px;
+   
     padding: 15px;
-    margin-bottom: 10px;
     border-radius: 5px;
-    box-sizing: border-box;
+    text-align: center ;
     
 }
 #mybutton{
@@ -16,20 +26,9 @@ h1{
     color: white;
     height: 45px;
     width: 300px;
-    padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     margin-bottom: 10px;
-}
-#mypage{
     text-align: center;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%-50%);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px;
-    z-index: 1000;
+   
 }
